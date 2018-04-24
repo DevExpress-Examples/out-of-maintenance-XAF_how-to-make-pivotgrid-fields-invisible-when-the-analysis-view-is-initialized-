@@ -34,7 +34,7 @@
             Me.authenticationActiveDirectory1 = New DevExpress.ExpressApp.Security.AuthenticationActiveDirectory()
             Me.pivotChartWindowsFormsModule1 = New DevExpress.ExpressApp.PivotChart.Win.PivotChartWindowsFormsModule()
             Me.pivotChartModuleBase1 = New DevExpress.ExpressApp.PivotChart.PivotChartModuleBase()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' module1
             ' 
@@ -89,7 +89,7 @@
             Me.Modules.Add(Me.pivotChartModuleBase1)
             Me.Modules.Add(Me.pivotChartWindowsFormsModule1)
             Me.Security = Me.securitySimple1
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
         End Sub
 

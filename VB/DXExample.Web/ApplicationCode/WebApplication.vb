@@ -27,7 +27,7 @@ Namespace DXExample.Web
             InitializeComponent()
         End Sub
 
-        Private Sub DXExampleAspNetApplication_DatabaseVersionMismatch(ByVal sender As Object, ByVal e As DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs) Handles MyBase.DatabaseVersionMismatch
+        Private Sub DXExampleAspNetApplication_DatabaseVersionMismatch(ByVal sender As Object, ByVal e As DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs) Handles Me.DatabaseVersionMismatch
             If System.Diagnostics.Debugger.IsAttached Then
                 e.Updater.Update()
                 e.Handled = True
