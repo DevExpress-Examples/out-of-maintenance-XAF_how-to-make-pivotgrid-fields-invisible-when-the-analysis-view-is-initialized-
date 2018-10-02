@@ -10,9 +10,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DXExample.Module</RootNamespace>
     <AssemblyName>DXExample.Module</AssemblyName>
-    <FileUpgradeFlags></FileUpgradeFlags>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
-    <UpgradeBackupLocation></UpgradeBackupLocation>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
@@ -100,9 +102,7 @@
   <ItemGroup>
     <Compile Include="CustomPivotFieldBuilder.cs" />
     <Compile Include="DomainObject1.cs" />
-    <Compile Include="HidePivotGridFieldsControllerBase.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="HidePivotGridFieldsController.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
     </Compile>

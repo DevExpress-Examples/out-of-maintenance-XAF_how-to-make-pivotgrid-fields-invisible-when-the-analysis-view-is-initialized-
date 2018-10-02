@@ -5,7 +5,7 @@ using DevExpress.Persistent.Base;
 using DevExpress.ExpressApp.PivotChart;
 
 namespace DXExample.Module {
-    public class HidePivotGridFieldsControllerBase : ObjectViewController<DetailView, IAnalysisInfo> {
+    public class HidePivotGridFieldsController : ObjectViewController<DetailView, IAnalysisInfo> {
         protected override void OnActivated() {
             base.OnActivated();
             foreach (AnalysisEditorBase editor in View.GetItems<AnalysisEditorBase>()) {
