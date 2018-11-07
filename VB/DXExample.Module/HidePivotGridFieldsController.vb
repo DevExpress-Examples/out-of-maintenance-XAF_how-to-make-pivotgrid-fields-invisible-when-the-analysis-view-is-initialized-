@@ -5,7 +5,7 @@ Imports DevExpress.Persistent.Base
 Imports DevExpress.ExpressApp.PivotChart
 
 Namespace DXExample.Module
-    Public Class HidePivotGridFieldsControllerBase
+    Public Class HidePivotGridFieldsController
         Inherits ObjectViewController(Of DetailView, IAnalysisInfo)
 
         Protected Overrides Sub OnActivated()
